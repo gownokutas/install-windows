@@ -1,16 +1,4 @@
 #!/bin/bash    
-
-# +------------------------------------------------------------+
-# W10-AUTOINSTALL
-# AUTORSTWA: Qwertyk12345
-# GITHUB: https://github.com/@gownokutas
-# DISCORD: hbfghfgh_24146
-# TELEGRAM: https://t.me/pomocinformatyczn
-# LINK DO ORYGINALNEGO PROJEKTU: https://github.com/dockur/windows
-# +------------------------------------------------------------+
-# NIE ZEZWALAM NA USUNIĘCIE TEGO WATERMARKA ANI MONETYZOWANIE
-# MOJEJ PRACY BEZ MOJEJ ZGODY!
-# +------------------------------------------------------------+
 MY_IP=$(hostname -I | awk '{print $1}')
 echo "+------------------------------------------------------------+"
 echo "Zarzadzaj swoim systemem z tego linku: http://$MY_IP:8006"
