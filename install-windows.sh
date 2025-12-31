@@ -1,4 +1,8 @@
-#!/bin/bash    
+#!/bin/bash
+
+# Copyright (c) 2025 Jakub Orłowski
+# Licensed under the MIT License. See LICENSE for details.
+
 MY_IP=$(hostname -I | awk '{print $1}')
 echo "+------------------------------------------------------------+"
 echo "Zarzadzaj swoim systemem z tego linku: http://$MY_IP:8006"
